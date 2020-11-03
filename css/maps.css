@@ -17,6 +17,6 @@
 }
 
 #map-wrapper {
-  transition: brightneess 3s;
+  transition: brightness 3s;
   filter: brightness(0);
 }
