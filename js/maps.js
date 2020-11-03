@@ -8,10 +8,11 @@
 
 var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
   center: [51.498976, -0.022702],
-  zoom: 13,
+  zoom: 14,
   tiltDegrees: 45,
   headingDegrees: 204.374,
-  tilt: 45,
+  tilt: 10,
+  tiltDegrees: 10,
   indoorsEnabled: false,
   displayEntranceMarkers: false,
 });
@@ -27,7 +28,7 @@ setTimeout(function(){
   map.setView(
     [51.501342, -0.120005], 16,
     {
-        tiltDegrees: 10,
+        tiltDegrees: 5,
         headingDegrees: 0,
         animate: true,
         durationSeconds: 8
