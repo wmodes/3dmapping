@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
     center: [40.830895, -73.925013],
-    zoom: 16,
+    zoom: 18,
     tiltDegrees: 45,
     headingDegrees: 207,
     indoorsEnabled: false,
@@ -32,7 +32,7 @@ $(document).ready(function(){
   setTimeout(function(){
     console.log("Changing POV");
     map.setView(
-      [40.688994, -74.045022], 17.00,
+      [40.688994, -74.045022], 16.00,
       {
           tiltDegrees: 5,
           tilt: 5,
