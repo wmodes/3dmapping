@@ -22,6 +22,7 @@ map.themes.setTheme(
 );
 
 setTimeout(function(){
+  console.log("Changing POV");
   map.setView(
     [51.501342, -0.120005], 15,
     {
