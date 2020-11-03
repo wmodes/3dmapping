@@ -1,7 +1,5 @@
 # 3dmapping
- 3D Mapping Experiments
-
-Experiments using eegeo and leaflet.
+ 3D Mapping experiments using eegeo and leaflet.
 
 ## References
 
