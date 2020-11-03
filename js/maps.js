@@ -31,9 +31,9 @@ $(document).ready(function(){
   setTimeout(function(){
     console.log("Changing POV");
     map.setView(
-      [51.501342, -0.120005], 16.25,
+      [51.501342, -0.120005], 16.5,
       {
-          tiltDegrees: 5,
+          tiltDegrees: 10,
           headingDegrees: 0,
           animate: true,
           durationSeconds: 20
