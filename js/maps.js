@@ -8,7 +8,6 @@
 
 var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
   center: [51.501342, -0.120005],
-  zoom: 15
+  zoom: 15,
+  tiltDegrees: 15.0
 });
-
-map.setView([51.501342, -0.120005], 17, {headingDegrees: 204.374, tiltDegrees:15.0});
