@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
     center: [40.830895, -73.925013],
-    zoom: 15,
+    zoom: 16,
     tiltDegrees: 45,
     headingDegrees: 207,
     indoorsEnabled: false,
@@ -38,7 +38,7 @@ $(document).ready(function(){
           tilt: 5,
           headingDegrees: 27,
           animate: true,
-          durationSeconds: 60
+          durationSeconds: 180
         }
     );
   }, 2000);
