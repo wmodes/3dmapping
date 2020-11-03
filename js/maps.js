@@ -19,7 +19,8 @@ $(document).ready(function(){
     headingDegrees: 204.374,
     indoorsEnabled: false,
     displayEntranceMarkers: false,
-    minZoom: 15
+    minZoom: 15,
+    maxZoom: 17
   });
 
   map.themes.setTheme(
