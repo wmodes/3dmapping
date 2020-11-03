@@ -15,7 +15,7 @@ var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
   tiltDegrees: 10,
   indoorsEnabled: false,
   displayEntranceMarkers: false,
-  maxZoom: 15
+  minZoom: 15
 });
 
 map.themes.setTheme(
