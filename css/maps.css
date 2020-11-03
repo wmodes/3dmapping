@@ -1,6 +1,6 @@
 
 
-#map {
+#map, #map-wrapper {
   border:0;
   position:fixed;
   left:0;
@@ -18,5 +18,5 @@
 
 #map-wrapper {
   transition: brightneess 3s;
-  /* filter: brightness(0); */
+  filter: brightness(0);
 }
