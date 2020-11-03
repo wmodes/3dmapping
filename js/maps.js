@@ -26,7 +26,7 @@ map.themes.setTheme(
 setTimeout(function(){
   console.log("Changing POV");
   map.setView(
-    [51.501342, -0.120005], 16,
+    [51.501342, -0.120005], 16.5,
     {
         tiltDegrees: 5,
         headingDegrees: 0,
