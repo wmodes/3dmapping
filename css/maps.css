@@ -12,5 +12,11 @@
 }
 
 #map {
-    filter: saturate(0.1);
+  filter: saturate(0.1);
+
+}
+
+#map-wrapper {
+  transition: brightneess 3s;
+  filter: brightness(0);
 }
