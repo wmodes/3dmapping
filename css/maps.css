@@ -20,4 +20,5 @@
   transition: all 13s;
   opacity: 1.0;
   z-index: 100000;
+  pointer-events: none;
 }
