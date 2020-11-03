@@ -17,6 +17,6 @@ var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
 
 map.themes.setTheme(
     L.eeGeo.themes.season.Winter,
-    L.eeGeo.themes.time.Night,
-    L.eeGeo.themes.weather.Snowy
+    L.eeGeo.themes.time.Dawn,
+    L.eeGeo.themes.weather.Foggy
 );
