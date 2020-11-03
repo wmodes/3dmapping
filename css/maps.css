@@ -1,6 +1,6 @@
 
 
-#map, #map-wrapper {
+#map, #load-screen {
   border:0;
   position:fixed;
   left:0;
@@ -16,7 +16,7 @@
 
 }
 
-#map-wrapper {
+#load-screen {
   transition: all 20s;
   filter: brightness(0.1);
 }
