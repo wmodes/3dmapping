@@ -7,8 +7,8 @@
 // }).addTo(map);
 
 var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
-  center: [51.501342, -0.120005],
-  zoom: 14,
+  center: [51.498976, -0.022702],
+  zoom: 13,
   tiltDegrees: 45,
   headingDegrees: 204.374,
   tilt: 45,
