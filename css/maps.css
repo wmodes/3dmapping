@@ -15,9 +15,9 @@
   filter: saturate(0.1);
 }
 
-/* #load-screen {
+#load-screen {
   background-color: #ffffff;
-  transition: all 20s;
+  transition: all 10s;
   opacity: 1.0;
   z-index: 100000;
-} */
+}

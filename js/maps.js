@@ -8,9 +8,9 @@
 
 $(document).ready(function(){
 
-  // setTimeout(function(){
-  //   $("#load-screen").css("opacity", "0");
-  // }, 1000);
+  setTimeout(function(){
+    $("#load-screen").css("opacity", "0");
+  }, 2000);
 
   var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
     center: [51.498976, -0.022702],
@@ -31,7 +31,7 @@ $(document).ready(function(){
   setTimeout(function(){
     console.log("Changing POV");
     map.setView(
-      [51.501342, -0.120005], 16.5,
+      [51.501342, -0.120005], 16.25,
       {
           tiltDegrees: 5,
           tilt: 5,
