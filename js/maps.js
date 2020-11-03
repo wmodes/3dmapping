@@ -6,7 +6,7 @@
 //   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 // }).addTo(map);
 
-#(document).ready(function(){
+$(document).ready(function(){
 
   $("#map-wrapper").css("brightness", "1");
 
