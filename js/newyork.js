@@ -38,7 +38,7 @@ $(document).ready(function(){
           tilt: 5,
           headingDegrees: 27,
           animate: true,
-          durationSeconds: 60
+          durationSeconds: 120
         }
     );
   }, 2000);
