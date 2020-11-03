@@ -8,7 +8,7 @@
 
 var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
   center: [51.498976, -0.022702],
-  zoom: 14,
+  zoom: 15,
   tiltDegrees: 45,
   headingDegrees: 204.374,
   tilt: 10,
@@ -26,7 +26,7 @@ map.themes.setTheme(
 setTimeout(function(){
   console.log("Changing POV");
   map.setView(
-    [51.501342, -0.120005], 16.5,
+    [51.501342, -0.120005], 16.25,
     {
         tiltDegrees: 5,
         headingDegrees: 0,
