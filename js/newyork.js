@@ -13,10 +13,10 @@ $(document).ready(function(){
   }, 5000);
 
   var map = L.eeGeo.map('map', 'c37e45fcb636b61e069d29f30f6cb2d6', {
-    center: [40.874723, -73.922199],
+    center: [40.830895, -73.925013],
     zoom: 15,
     tiltDegrees: 45,
-    headingDegrees: 180,
+    headingDegrees: 207,
     indoorsEnabled: false,
     displayEntranceMarkers: false,
     minZoom: 15,
@@ -36,7 +36,7 @@ $(document).ready(function(){
       {
           tiltDegrees: 5,
           tilt: 5,
-          headingDegrees: 0,
+          headingDegrees: 27,
           animate: true,
           durationSeconds: 60
         }
