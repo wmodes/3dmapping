@@ -17,8 +17,6 @@ $(document).ready(function(){
     zoom: 15,
     tiltDegrees: 45,
     headingDegrees: 204.374,
-    tilt: 10,
-    tiltDegrees: 10,
     indoorsEnabled: false,
     displayEntranceMarkers: false,
     minZoom: 15
@@ -35,7 +33,8 @@ $(document).ready(function(){
     map.setView(
       [51.501342, -0.120005], 16.5,
       {
-          tiltDegrees: 10,
+          tiltDegrees: 5,
+          tilt: 5,
           headingDegrees: 0,
           animate: true,
           durationSeconds: 20
