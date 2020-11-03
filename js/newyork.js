@@ -32,13 +32,13 @@ $(document).ready(function(){
   setTimeout(function(){
     console.log("Changing POV");
     map.setView(
-      [40.700825, -74.014550], 16.00,
+      [40.705157, -74.013530], 15.00,
       {
           tiltDegrees: 5,
           tilt: 5,
           headingDegrees: 27,
           animate: true,
-          durationSeconds: 120
+          durationSeconds: 60
         }
     );
   }, 2000);
