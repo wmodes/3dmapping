@@ -17,7 +17,7 @@
 
 #load-screen {
   background-color: #000;
-  transition: all 13s;
+  transition: all 12s;
   opacity: 1.0;
   z-index: 100000;
   pointer-events: none;
