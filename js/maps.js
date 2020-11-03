@@ -28,7 +28,7 @@ setTimeout(function(){
     {
         tiltDegrees: 5.0,
         animate: true,
-        durationSeconds: 4
+        durationSeconds: 8
       }
   );
-}, 5000)
+}, 10000);
