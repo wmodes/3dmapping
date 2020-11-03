@@ -26,7 +26,7 @@ setTimeout(function(){
   map.setView(
     [51.501342, -0.120005], 17,
     {
-        tiltDegrees: 10,
+        tiltDegrees: 85,
         headingDegrees: 204.374,
         animate: true,
         durationSeconds: 8
