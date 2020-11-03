@@ -19,4 +19,5 @@
   background-color: #ffffff;
   transition: all 20s;
   opacity: 1.0;
+  z-index: 100000;
 }
